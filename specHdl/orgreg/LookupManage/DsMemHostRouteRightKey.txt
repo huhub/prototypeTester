@@ -1,0 +1,8 @@
+Name	DsMemHostRouteRightKey	EntryNumber	1
+isIpv6[0:0]	RO	0	
+ipAddrF3[0:0]	RO	0	
+ipAddrF2[0:0]	RO	0	
+ipAddrF1[0:0]	RO	0	
+ipAddrF0[0:0]	RO	0	
+isValid[0:0]	RO	0	
+isIpv6F[0:0]	RO	0	

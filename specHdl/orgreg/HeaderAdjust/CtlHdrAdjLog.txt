@@ -1,0 +1,5 @@
+Name	CtlHdrAdjLog	EntryNumber	1
+isTsn[0:0]	RO	0	
+discard[0:0]	RO	0	
+srcPort[0:0]	RO	0	
+pktLenLog[0:0]	RO	0	

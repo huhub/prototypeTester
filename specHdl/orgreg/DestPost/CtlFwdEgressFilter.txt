@@ -1,0 +1,2 @@
+Name	CtlFwdEgressFilter	EntryNumber	1
+egrFilteringEn[0:0]	RO	0	

@@ -1,0 +1,6 @@
+Name	DsMemRcvyCfg	EntryNumber	1
+resetTicks[0:0]	RO	0	
+illegalPktReset[0:0]	RO	0	
+frerAcceptNoSeq[0:0]	RO	0	
+historyLen[0:0]	RO	0	
+frerRcvyAlg[0:0]	RO	0	

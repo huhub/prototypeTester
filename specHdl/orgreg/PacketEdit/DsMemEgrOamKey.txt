@@ -1,0 +1,6 @@
+Name	DsMemEgrOamKey	EntryNumber	1
+key0[0:0]	RO	0	
+valid[0:0]	RO	0	
+key1[0:0]	RO	0	
+key2[0:0]	RO	0	
+key3[0:0]	RO	0	

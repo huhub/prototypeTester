@@ -1,0 +1,9 @@
+Name	CtlStormCntl	EntryNumber	1
+enable[0:0]	RO	0	
+stormCurPtr[0:0]	RO	0	
+stormInterval[0:0]	RO	0	
+stormMaxPtr[0:0]	RO	0	
+stormMinPtr[0:0]	RO	0	
+stormFinalDelay[0:0]	RO	0	
+stormCurRound[0:0]	RO	0	
+stormUpdRound[0:0]	RO	0	

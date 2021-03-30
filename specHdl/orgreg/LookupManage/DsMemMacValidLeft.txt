@@ -1,0 +1,2 @@
+Name	DsMemMacValidLeft	EntryNumber	1
+valid[0:0]	RO	0	

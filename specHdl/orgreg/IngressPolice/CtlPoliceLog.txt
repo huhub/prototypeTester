@@ -1,0 +1,9 @@
+Name	CtlPoliceLog	EntryNumber	1
+policeDrop[0:0]	RO	0	
+dropPktCnt[0:0]	RO	0	
+portPoEn[0:0]	RO	0	
+flowPoEn[0:0]	RO	0	
+portPoPtr[0:0]	RO	0	
+flowPoPtr[0:0]	RO	0	
+chkSDUfailed[0:0]	RO	0	
+newColor[0:0]	RO	0	

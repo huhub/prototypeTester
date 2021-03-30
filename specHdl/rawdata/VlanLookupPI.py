@@ -1,0 +1,1 @@
+VlanLookup = ['cpuPktType', 'logicalPort', 'eapolDiscard', 'dot1xDiscard', 'ptpEn', 'ptpDiscard', 'macBasedVlanValid', 'macBasedVlanIdx', 'protocolVlanValid', 'protocolVlanIdx', 'vlanLkpRslt']

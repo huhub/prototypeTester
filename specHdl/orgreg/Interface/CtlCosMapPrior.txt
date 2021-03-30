@@ -1,0 +1,2 @@
+Name	CtlCosMapPrior	EntryNumber	1
+cosPrior[0:0]	RO	0	

@@ -1,0 +1,20 @@
+Name	CtlPktProcLog	EntryNumber	1
+cpuFifoFullNum[0:0]	RO	0	
+hwFifoFullNum[0:0]	RO	0	
+aclQosLogEn[0:0]	RO	0	
+aclDiscard[0:0]	RO	0	
+routeDiscard[0:0]	RO	0	
+routeExcpDiscard[0:0]	RO	0	
+routeProcess[0:0]	RO	0	
+bridgeProcess[0:0]	RO	0	
+destMacKnown[0:0]	RO	0	
+l2UcastSrcMatchDiscard[0:0]	RO	0	
+macDaDiscard[0:0]	RO	0	
+igrStpCheckDiscard[0:0]	RO	0	
+stormDrop[0:0]	RO	0	
+lrnPortLockDiscard[0:0]	RO	0	
+lrnNumExceedDiscard[0:0]	RO	0	
+isTsn[0:0]	RO	0	
+tsnHandle[0:0]	RO	0	
+igrFlowSpan[0:0]	RO	0	
+entryPend[0:0]	RO	0	

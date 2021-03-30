@@ -1,0 +1,2 @@
+Name	DsMemTsnSplit	EntryNumber	1
+destBmp[0:0]	RO	0	

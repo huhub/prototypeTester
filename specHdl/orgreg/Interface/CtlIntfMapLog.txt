@@ -1,0 +1,16 @@
+Name	CtlIntfMapLog	EntryNumber	1
+aftDiscard[0:0]	RO	0	
+vlanId[0:0]	RO	0	
+cos[0:0]	RO	0	
+dscp[0:0]	RO	0	
+prior[0:0]	RO	0	
+isUcastIp[0:0]	RO	0	
+isMcastIp[0:0]	RO	0	
+isMcastMac[0:0]	RO	0	
+routingEn[0:0]	RO	0	
+cpuPktType[0:0]	RO	0	
+stpIdx[0:0]	RO	0	
+isBpdu[0:0]	RO	0	
+stpState[0:0]	RO	0	
+tsnEn[0:0]	RO	0	
+mcVlanDrop[0:0]	RO	0	

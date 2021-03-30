@@ -1,0 +1,2 @@
+Name	DsMemHandle2StreamId	EntryNumber	1
+streamId[0:0]	RO	0	

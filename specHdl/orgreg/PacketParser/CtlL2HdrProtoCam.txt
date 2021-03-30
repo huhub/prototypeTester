@@ -1,0 +1,26 @@
+Name	CtlL2HdrProtoCam	EntryNumber	1
+valid[0:0]	RO	0	
+l2ProtoData0[0:0]	RO	0	
+l2ProtoMask0[0:0]	RO	0	
+l3Type0[0:0]	RO	0	
+l2ProtoData1[0:0]	RO	0	
+l2ProtoMask1[0:0]	RO	0	
+l3Type1[0:0]	RO	0	
+l2ProtoData2[0:0]	RO	0	
+l2ProtoMask2[0:0]	RO	0	
+l3Type2[0:0]	RO	0	
+l2ProtoData3[0:0]	RO	0	
+l2ProtoMask3[0:0]	RO	0	
+l3Type3[0:0]	RO	0	
+l2ProtoData4[0:0]	RO	0	
+l2ProtoMask4[0:0]	RO	0	
+l3Type4[0:0]	RO	0	
+l2ProtoData5[0:0]	RO	0	
+l2ProtoMask5[0:0]	RO	0	
+l3Type5[0:0]	RO	0	
+l2ProtoData6[0:0]	RO	0	
+l2ProtoMask6[0:0]	RO	0	
+l3Type6[0:0]	RO	0	
+l2ProtoData7[0:0]	RO	0	
+l2ProtoMask7[0:0]	RO	0	
+l3Type7[0:0]	RO	0	

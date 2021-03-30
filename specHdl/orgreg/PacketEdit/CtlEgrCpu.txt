@@ -1,0 +1,4 @@
+Name	CtlEgrCpu	EntryNumber	1
+forbidEdit[0:0]	RO	0	
+needCpuHdr[0:0]	RO	0	
+maxLength[0:0]	RO	0	

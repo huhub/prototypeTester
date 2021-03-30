@@ -1,0 +1,3 @@
+Name	DsMemMacTsn	EntryNumber	1
+isTsn[0:0]	RO	0	
+tsnHandle[0:0]	RO	0	

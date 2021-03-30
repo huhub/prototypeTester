@@ -1,0 +1,2 @@
+Name	CtlEgrDot1qTpid	EntryNumber	1
+tpidOut[0:0]	RO	0	

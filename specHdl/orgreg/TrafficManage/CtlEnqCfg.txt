@@ -1,0 +1,5 @@
+Name	CtlEnqCfg	EntryNumber	1
+tsnEn[0:0]	RO	0	
+gateOnly[0:0]	RO	0	
+ipv[0:0]	RO	0	
+enqEnBmp[0:0]	RO	0	

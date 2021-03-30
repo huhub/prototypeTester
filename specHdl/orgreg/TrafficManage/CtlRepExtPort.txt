@@ -1,0 +1,2 @@
+Name	CtlRepExtPort	EntryNumber	1
+destPort[0:0]	RO	0	

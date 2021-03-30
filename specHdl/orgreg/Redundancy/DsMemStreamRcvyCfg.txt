@@ -1,0 +1,3 @@
+Name	DsMemStreamRcvyCfg	EntryNumber	1
+redundancyPaths[0:0]	RO	0	
+frerRcvyAlg[0:0]	RO	0	

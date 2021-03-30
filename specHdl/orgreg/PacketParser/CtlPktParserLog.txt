@@ -1,0 +1,20 @@
+Name	CtlPktParserLog	EntryNumber	1
+userData0[0:0]	RO	0	
+userData1[0:0]	RO	0	
+randomSeed[0:0]	RO	0	
+dosDropBmp[0:0]	RO	0	
+l2Type[0:0]	RO	0	
+stagValid[0:0]	RO	0	
+ctagValid[0:0]	RO	0	
+rtagValid[0:0]	RO	0	
+l3Type[0:0]	RO	0	
+l4Type[0:0]	RO	0	
+l2HdrError[0:0]	RO	0	
+l3HdrError[0:0]	RO	0	
+l4HdrError[0:0]	RO	0	
+rtcpPkt[0:0]	RO	0	
+isPtp[0:0]	RO	0	
+rtpPkt[0:0]	RO	0	
+snmpPkt[0:0]	RO	0	
+isBfd[0:0]	RO	0	
+jumboNum[0:0]	RO	0	

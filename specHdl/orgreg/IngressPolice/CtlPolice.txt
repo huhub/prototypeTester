@@ -1,0 +1,24 @@
+Name	CtlPolice	EntryNumber	1
+flowPoliceFirst[0:0]	RO	0	
+sequentialPolicing[0:0]	RO	0	
+flowStatsEn[0:0]	RO	0	
+flowStatsBase[0:0]	RO	0	
+portStatsEn[0:0]	RO	0	
+portStatsBase[0:0]	RO	0	
+updateEn[0:0]	RO	0	
+portCurPtr[0:0]	RO	0	
+portUpdateIntv[0:0]	RO	0	
+portMaxPtr[0:0]	RO	0	
+portMinPtr[0:0]	RO	0	
+portPerRndDelay[0:0]	RO	0	
+portCurRound[0:0]	RO	0	
+portUpdRound[0:0]	RO	0	
+portFinalDelay[0:0]	RO	0	
+flowCurPtr[0:0]	RO	0	
+flowUpdateIntv[0:0]	RO	0	
+flowMaxPtr[0:0]	RO	0	
+flowMinPtr[0:0]	RO	0	
+flowPerRndDelay[0:0]	RO	0	
+flowCurRound[0:0]	RO	0	
+flowUpdRound[0:0]	RO	0	
+flowFinalDelay[0:0]	RO	0	

@@ -1,0 +1,3 @@
+Name	DsMemIndvRcvySeq	EntryNumber	1
+takeAny[0:0]	RO	0	
+remainTicks[0:0]	RO	0	

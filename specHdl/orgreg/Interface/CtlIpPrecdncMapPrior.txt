@@ -1,0 +1,2 @@
+Name	CtlIpPrecdncMapPrior	EntryNumber	1
+precPrior[0:0]	RO	0	

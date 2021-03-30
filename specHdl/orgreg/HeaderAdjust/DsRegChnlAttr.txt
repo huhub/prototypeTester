@@ -1,0 +1,5 @@
+Name	DsRegChnlAttr	EntryNumber	1
+portId[0:0]	RO	0	
+bypassPp[0:0]	RO	0	
+destMap[0:0]	RO	0	
+dot1qType[0:0]	RO	0	

@@ -1,0 +1,3 @@
+Name	DsRegQueueDrop	EntryNumber	1
+tailDropSet[0:0]	RO	0	
+wredSet[0:0]	RO	0	

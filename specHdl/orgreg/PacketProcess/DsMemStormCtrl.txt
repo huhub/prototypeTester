@@ -1,0 +1,4 @@
+Name	DsMemStormCtrl	EntryNumber	1
+stormCtrlEn[0:0]	RO	0	
+threshold[0:0]	RO	0	
+usePktCount[0:0]	RO	0	

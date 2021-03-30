@@ -1,0 +1,3 @@
+Name	DsRegEgrPriorMap	EntryNumber	1
+dscp[0:0]	RO	0	
+cos[0:0]	RO	0	

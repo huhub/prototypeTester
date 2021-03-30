@@ -1,0 +1,3 @@
+Name	DsMemPolice	EntryNumber	1
+commitCount[0:0]	RO	0	
+peakCount[0:0]	RO	0	

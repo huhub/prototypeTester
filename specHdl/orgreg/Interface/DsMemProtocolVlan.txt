@@ -1,0 +1,7 @@
+Name	DsMemProtocolVlan	EntryNumber	1
+replaceVlan[0:0]	RO	0	
+vlanId[0:0]	RO	0	
+replaceCos[0:0]	RO	0	
+cos[0:0]	RO	0	
+replaceDscp[0:0]	RO	0	
+dscp[0:0]	RO	0	

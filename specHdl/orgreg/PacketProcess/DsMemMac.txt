@@ -1,0 +1,11 @@
+Name	DsMemMac	EntryNumber	1
+pending[0:0]	RO	0	
+flowPolicePtr[0:0]	RO	0	
+flowPoliceValid[0:0]	RO	0	
+flowStatsValid[0:0]	RO	0	
+flowStatsPtr[0:0]	RO	0	
+destMap[0:0]	RO	0	
+isMcast[0:0]	RO	0	
+mirrorEn[0:0]	RO	0	
+dstDiscard[0:0]	RO	0	
+copyToCpu[0:0]	RO	0	

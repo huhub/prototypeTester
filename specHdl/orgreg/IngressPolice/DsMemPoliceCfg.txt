@@ -1,0 +1,9 @@
+Name	DsMemPoliceCfg	EntryNumber	1
+srTcmMode[0:0]	RO	0	
+colorBlindMode[0:0]	RO	0	
+colorDropCode[0:0]	RO	0	
+cbsByte[0:0]	RO	0	
+pbsByte[0:0]	RO	0	
+updateEn[0:0]	RO	0	
+cirBps[0:0]	RO	0	
+pirBps[0:0]	RO	0	

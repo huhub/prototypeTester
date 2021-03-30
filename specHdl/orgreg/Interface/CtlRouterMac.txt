@@ -1,0 +1,9 @@
+Name	CtlRouterMac	EntryNumber	1
+routerMac0[0:0]	RO	0	
+routerMacHi0[0:0]	RO	0	
+routerMac1[0:0]	RO	0	
+routerMacHi1[0:0]	RO	0	
+routerMac2[0:0]	RO	0	
+routerMacHi2[0:0]	RO	0	
+routerMac3[0:0]	RO	0	
+routerMacHi3[0:0]	RO	0	

@@ -1,0 +1,2 @@
+Name	CtlTsnFunc	EntryNumber	1
+enable[0:0]	RO	0	

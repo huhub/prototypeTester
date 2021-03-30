@@ -1,0 +1,4 @@
+Name	DsMemStreamRcvySeq	EntryNumber	1
+latentErrorResetCnt[0:0]	RO	0	
+takeAny[0:0]	RO	0	
+remainTicks[0:0]	RO	0	

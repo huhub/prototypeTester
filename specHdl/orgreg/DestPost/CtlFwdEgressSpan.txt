@@ -1,0 +1,2 @@
+Name	CtlFwdEgressSpan	EntryNumber	1
+l2EgrSpanEn[0:0]	RO	0	

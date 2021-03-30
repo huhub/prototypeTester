@@ -1,0 +1,2 @@
+Name	CtlFwdExcp	EntryNumber	1
+excepToCpu[0:0]	RO	0	

@@ -1,0 +1,6 @@
+Name	CtlLkupCfg	EntryNumber	1
+macDaKeyEn[0:0]	RO	0	
+macPcpKeyEn[0:0]	RO	0	
+ipDscpKeyEn[0:0]	RO	0	
+ipSportKeyEn[0:0]	RO	0	
+ipDportKeyEn[0:0]	RO	0	

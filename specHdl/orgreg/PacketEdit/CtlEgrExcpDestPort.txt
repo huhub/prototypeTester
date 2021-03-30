@@ -1,0 +1,3 @@
+Name	CtlEgrExcpDestPort	EntryNumber	1
+destPort[0:0]	RO	0	
+excpAddCpuHdr[0:0]	RO	0	

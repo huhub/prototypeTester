@@ -1,0 +1,3 @@
+Name	DsMemEgrOamSession	EntryNumber	1
+mdlBmp[0:0]	RO	0	
+mepBasePtr[0:0]	RO	0	

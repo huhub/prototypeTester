@@ -1,0 +1,11 @@
+Name	CtlVlanLookupLog	EntryNumber	1
+vlanLkpRslt[0:0]	RO	0	
+eapolDiscard[0:0]	RO	0	
+dot1xDiscard[0:0]	RO	0	
+chkMacSaFail[0:0]	RO	0	
+ptpDiscard[0:0]	RO	0	
+ipSubnetVlanValid[0:0]	RO	0	
+macBasedVlanValid[0:0]	RO	0	
+protocolVlanValid[0:0]	RO	0	
+isTsn[0:0]	RO	0	
+ptpEn[0:0]	RO	0	

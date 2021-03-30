@@ -1,0 +1,21 @@
+Name	CtlFwdLog	EntryNumber	1
+fwdBitmap[0:0]	RO	0	
+fwdBitmapW1[0:0]	RO	0	
+vlanDiscard[0:0]	RO	0	
+mcastFlood[0:0]	RO	0	
+destMap[0:0]	RO	0	
+opCode[0:0]	RO	0	
+ucastFlood[0:0]	RO	0	
+criticalPacket[0:0]	RO	0	
+forbidEdit[0:0]	RO	0	
+redirPtp[0:0]	RO	0	
+egrPortFilted[0:0]	RO	0	
+egrVlanFilted[0:0]	RO	0	
+lagFilted[0:0]	RO	0	
+ptpValid[0:0]	RO	0	
+ptp2Cpu[0:0]	RO	0	
+addRtag[0:0]	RO	0	
+tsnGateId[0:0]	RO	0	
+tsnCycle[0:0]	RO	0	
+cpuPktType[0:0]	RO	0	
+destLostInCfg[0:0]	RO	0	

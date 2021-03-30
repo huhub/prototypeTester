@@ -1,0 +1,2 @@
+Name	CtlCpuStats	EntryNumber	1
+statsEn[0:0]	RO	0	

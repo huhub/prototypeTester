@@ -1,0 +1,2 @@
+Name	DsMemSrcPortEgressMask	EntryNumber	1
+portEgressMask[0:0]	RO	0	

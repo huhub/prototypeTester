@@ -1,0 +1,2 @@
+Name	CtlPpGapConfig	EntryNumber	1
+gapValue[0:0]	RO	0	

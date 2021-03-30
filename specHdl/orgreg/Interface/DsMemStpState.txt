@@ -1,0 +1,2 @@
+Name	DsMemStpState	EntryNumber	1
+stpState[0:0]	RO	0	

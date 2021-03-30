@@ -1,0 +1,1 @@
+HeaderAdjust = ['opCode', 'discard', 'pktLength', 'srcPort', 'bypassPp', 'destMap', 'dot1qType', 'hasInnerHdr', 'vlanId', 'prior', 'isTsn', 'lrnDisable', 'forbidEdit', 'ts', 'criticalPkt', 'psrOffset', 'hdrLength', 'discardBmp', 'pktType']

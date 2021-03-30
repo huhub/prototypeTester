@@ -1,0 +1,3 @@
+Name	DsMemEgrExcpStats	EntryNumber	1
+pktCnt[0:0]	RO	0	
+byteCnt[0:0]	RO	0	

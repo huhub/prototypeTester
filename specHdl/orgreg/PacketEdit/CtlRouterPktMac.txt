@@ -1,0 +1,3 @@
+Name	CtlRouterPktMac	EntryNumber	1
+routerMac[0:0]	RO	0	
+routerMacHi[0:0]	RO	0	

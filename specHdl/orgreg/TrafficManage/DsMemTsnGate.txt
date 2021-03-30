@@ -1,0 +1,5 @@
+Name	DsMemTsnGate	EntryNumber	1
+state0[0:0]	RO	0	
+ipv0[0:0]	RO	0	
+state1[0:0]	RO	0	
+ipv1[0:0]	RO	0	

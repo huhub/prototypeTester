@@ -1,0 +1,1 @@
+PacketParser = ['l3Offset', 'jumboNum', 'l3Type', 'isPtp', 'isCfm', 'l4Type', 'l4Offset', 'isBfd', 'isBfdEcho', 'isAvFrame', 'rtpPkt', 'copyToCpu', 'rtcpPkt', 'isSnmp', 'snmpPkt', 'userData0', 'userData1', 'dosDropBmp']

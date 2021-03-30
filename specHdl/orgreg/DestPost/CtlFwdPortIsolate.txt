@@ -1,0 +1,3 @@
+Name	CtlFwdPortIsolate	EntryNumber	1
+vlanId[0:0]	RO	0	
+forcePortEgressMask[0:0]	RO	0	

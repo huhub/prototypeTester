@@ -1,0 +1,2 @@
+Name	DsMemIndvRcvyCfg	EntryNumber	1
+frerRcvyAlg[0:0]	RO	0	

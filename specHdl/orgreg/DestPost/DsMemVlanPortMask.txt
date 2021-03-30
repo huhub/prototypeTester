@@ -1,0 +1,2 @@
+Name	DsMemVlanPortMask	EntryNumber	1
+portMask[0:0]	RO	0	

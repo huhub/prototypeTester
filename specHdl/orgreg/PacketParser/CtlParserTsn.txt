@@ -1,0 +1,4 @@
+Name	CtlParserTsn	EntryNumber	1
+rtagTpid[0:0]	RO	0	
+prpTpid[0:0]	RO	0	
+hsrTpid[0:0]	RO	0	

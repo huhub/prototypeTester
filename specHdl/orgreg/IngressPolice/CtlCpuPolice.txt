@@ -1,0 +1,3 @@
+Name	CtlCpuPolice	EntryNumber	1
+policeEn[0:0]	RO	0	
+policePtrBase[0:0]	RO	0	

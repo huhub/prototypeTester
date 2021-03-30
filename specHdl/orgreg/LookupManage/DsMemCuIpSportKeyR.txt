@@ -1,0 +1,16 @@
+Name	DsMemCuIpSportKeyR	EntryNumber	1
+valid[0:0]	RO	0	
+L3Next0[0:0]	RO	0	
+l4SrcPort[0:0]	RO	0	
+ipAddr3[0:0]	RO	0	
+ipAddr2[0:0]	RO	0	
+ipAddr1[0:0]	RO	0	
+ipAddr0[0:0]	RO	0	
+l3Next0[0:0]	RO	0	
+l4SrcPort0[0:0]	RO	0	
+l3Next1[0:0]	RO	0	
+l4SrcPort1[0:0]	RO	0	
+l3Next2[0:0]	RO	0	
+l4SrcPort2[0:0]	RO	0	
+l3Next3[0:0]	RO	0	
+l4SrcPort3[0:0]	RO	0	

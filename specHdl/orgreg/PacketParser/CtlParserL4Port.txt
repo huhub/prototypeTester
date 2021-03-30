@@ -1,0 +1,10 @@
+Name	CtlParserL4Port	EntryNumber	1
+ptpPort0[0:0]	RO	0	
+ptpPort1[0:0]	RO	0	
+bfdPort0[0:0]	RO	0	
+bfdPort1[0:0]	RO	0	
+bfdEcho[0:0]	RO	0	
+avbPortLo[0:0]	RO	0	
+avbPortHi[0:0]	RO	0	
+snmpPort0[0:0]	RO	0	
+snmpPort1[0:0]	RO	0	

@@ -1,0 +1,10 @@
+Name	DsMemCuIpDscpKeyL	EntryNumber	1
+valid[0:0]	RO	0	
+dscp0[0:0]	RO	0	
+ipAddr3[0:0]	RO	0	
+ipAddr2[0:0]	RO	0	
+ipAddr1[0:0]	RO	0	
+ipAddr0[0:0]	RO	0	
+dscp1[0:0]	RO	0	
+dscp2[0:0]	RO	0	
+dscp3[0:0]	RO	0	

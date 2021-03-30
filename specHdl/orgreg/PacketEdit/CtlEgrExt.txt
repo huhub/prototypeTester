@@ -1,0 +1,4 @@
+Name	CtlEgrExt	EntryNumber	1
+extForbidEdit[0:0]	RO	0	
+extNeedCpuHdr[0:0]	RO	0	
+extRemoteSpan[0:0]	RO	0	

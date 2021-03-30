@@ -1,0 +1,2 @@
+Name	DsMemEgrSrcPort	EntryNumber	1
+pDelay[0:0]	RO	0	

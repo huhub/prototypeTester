@@ -1,0 +1,13 @@
+Name	CtlParserEthernet	EntryNumber	1
+svlanTpid[0:0]	RO	0	
+cvlanTpid[0:0]	RO	0	
+stagFirst[0:0]	RO	0	
+maxLength[0:0]	RO	0	
+allowNoneZeroOui[0:0]	RO	0	
+ethSapCtlLen[0:0]	RO	0	
+ccmOpcode[0:0]	RO	0	
+lmmOpcode[0:0]	RO	0	
+lmrOpcode[0:0]	RO	0	
+dmmOpcode[0:0]	RO	0	
+dmrOpcode[0:0]	RO	0	
+tcpHdrMinSize[0:0]	RO	0	

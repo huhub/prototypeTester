@@ -1,0 +1,2 @@
+Name	CtlEgrOam	EntryNumber	1
+oamObeyDiscard[0:0]	RO	0	

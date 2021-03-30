@@ -1,0 +1,8 @@
+Name	DsMemRcvyCnt	EntryNumber	1
+flowTaglessPkts[0:0]	RO	0	
+flowPassedPkts[0:0]	RO	0	
+portPassedPkts[0:0]	RO	0	
+flowDiscardPkts[0:0]	RO	0	
+portDiscardPkts[0:0]	RO	0	
+flowOutOrderCnt[0:0]	RO	0	
+flowRoguePkts[0:0]	RO	0	

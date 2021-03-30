@@ -1,0 +1,15 @@
+Name	CtlDosControl	EntryNumber	1
+macSaEqMacDaDrop[0:0]	RO	0	
+sipEqDipDrop[0:0]	RO	0	
+icmpFragDrop[0:0]	RO	0	
+icmpV4PingSizeCheck[0:0]	RO	0	
+icmpV4MaxSize[0:0]	RO	0	
+icmpV6PingSizeCheck[0:0]	RO	0	
+icmpV6MaxSize[0:0]	RO	0	
+tcpFlagsCtl0Seq0En[0:0]	RO	0	
+tcpSportEqDportDrop[0:0]	RO	0	
+tcpFlagSynFinDrop[0:0]	RO	0	
+tcpFlagFinUrgPshSeq0Drop[0:0]	RO	0	
+tcpFragOffset1Drop[0:0]	RO	0	
+tcpHdrPartialDrop[0:0]	RO	0	
+udpSportEqDportDrop[0:0]	RO	0	

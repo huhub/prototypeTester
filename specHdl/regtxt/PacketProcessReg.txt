@@ -1,0 +1,281 @@
+FileName	Prefix	AddrUpper	AddrLower	FlopInput
+PacketProcessReg	PACKETPROCESS_	16	2	Y
+
+Register	FullName	Words	DecodeAddress	Description
+CtlMacLearn	CtlMacLearn	1	15'b0_0000_0000_0000_00	CtlMacLearn
+CtlPktProcLog	CtlPktProcLog	1	15'b0_0000_0000_0000_10	CtlPktProcLog
+CtlPpGapConfig	CtlPpGapConfig	1	15'b0_0000_0000_0001_00	CtlPpGapConfig
+CtlStormCntl	CtlStormCntl	1	15'b0_0000_0000_0001_10	CtlStormCntl
+DsMemAclTsn	DsMemAclTsn	0	15'b0_0000_0000_0010_0??	DsMemAclTsn
+DsMemCustomFdb	DsMemCustomFdb	1	15'b0_0000_0000_0010_10	DsMemCustomFdb
+DsMemFlowColorStats	DsMemFlowColorStats	0	15'b0_0000_0000_0011_0??	DsMemFlowColorStats
+DsMemFlowPolice	DsMemFlowPolice	0	15'b0_0000_0000_0011_1??	DsMemFlowPolice
+DsMemFlowPoliceCfg	DsMemFlowPoliceCfg	0	15'b0_0000_0000_0100_0??	DsMemFlowPoliceCfg
+DsMemHostRoute	DsMemHostRoute	0	15'b0_0000_0000_0100_1??	DsMemHostRoute
+DsMemHostRouteLeft	DsMemHostRouteLeft	0	15'b0_0000_0000_0101_0??	DsMemHostRouteLeft
+DsMemHostRouteLeftKey	DsMemHostRouteLeftKey	0	15'b0_0000_0000_0101_1??	DsMemHostRouteLeftKey
+DsMemHostRouteLeftValid	DsMemHostRouteLeftValid	0	15'b0_0000_0000_0110_0??	DsMemHostRouteLeftValid
+DsMemHostRouteRight	DsMemHostRouteRight	0	15'b0_0000_0000_0110_1??	DsMemHostRouteRight
+DsMemHostRouteRightKey	DsMemHostRouteRightKey	0	15'b0_0000_0000_0111_0??	DsMemHostRouteRightKey
+DsMemHostRouteRightValid	DsMemHostRouteRightValid	0	15'b0_0000_0000_0111_1??	DsMemHostRouteRightValid
+DsMemHostTsn	DsMemHostTsn	0	15'b0_0000_0000_1000_0??	DsMemHostTsn
+DsMemHostTsnLeft	DsMemHostTsnLeft	0	15'b0_0000_0000_1000_1??	DsMemHostTsnLeft
+DsMemHostTsnRight	DsMemHostTsnRight	0	15'b0_0000_0000_1001_0??	DsMemHostTsnRight
+DsMemIndvRcvyCfg	DsMemIndvRcvyCfg	0	15'b0_0000_0000_1001_1??	DsMemIndvRcvyCfg
+DsMemIndvRcvyCnt	DsMemIndvRcvyCnt	0	15'b0_0000_0000_1010_0??	DsMemIndvRcvyCnt
+DsMemIndvRcvySeq	DsMemIndvRcvySeq	0	15'b0_0000_0000_1010_1??	DsMemIndvRcvySeq
+DsMemMac	DsMemMac	1	15'b0_0000_0000_1011_00	DsMemMac
+DsMemMacAgingLeft	DsMemMacAgingLeft	0	15'b0_0000_0000_1011_1??	DsMemMacAgingLeft
+DsMemMacAgingRight	DsMemMacAgingRight	0	15'b0_0000_0000_1100_0??	DsMemMacAgingRight
+DsMemMacKeyLeft	DsMemMacKeyLeft	0	15'b0_0000_0000_1100_1??	DsMemMacKeyLeft
+DsMemMacKeyRight	DsMemMacKeyRight	0	15'b0_0000_0000_1101_0??	DsMemMacKeyRight
+DsMemMacLeft	DsMemMacLeft	0	15'b0_0000_0000_1101_1??	DsMemMacLeft
+DsMemMacRight	DsMemMacRight	0	15'b0_0000_0000_1110_0??	DsMemMacRight
+DsMemMacStaticLeft	DsMemMacStaticLeft	0	15'b0_0000_0000_1110_1??	DsMemMacStaticLeft
+DsMemMacStaticRight	DsMemMacStaticRight	0	15'b0_0000_0000_1111_0??	DsMemMacStaticRight
+DsMemMacTsn	DsMemMacTsn	1	15'b0_0000_0000_1111_10	DsMemMacTsn
+DsMemMacTsnLeft	DsMemMacTsnLeft	0	15'b0_0000_0001_0000_0??	DsMemMacTsnLeft
+DsMemMacTsnRight	DsMemMacTsnRight	0	15'b0_0000_0001_0000_1??	DsMemMacTsnRight
+DsMemMacValidLeft	DsMemMacValidLeft	0	15'b0_0000_0001_0001_0??	DsMemMacValidLeft
+DsMemMacValidRight	DsMemMacValidRight	0	15'b0_0000_0001_0001_1??	DsMemMacValidRight
+DsMemPortColorStats	DsMemPortColorStats	0	15'b0_0000_0001_0010_0??	DsMemPortColorStats
+DsMemPortPolice	DsMemPortPolice	0	15'b0_0000_0001_0010_1??	DsMemPortPolice
+DsMemPortPoliceCfg	DsMemPortPoliceCfg	0	15'b0_0000_0001_0011_0??	DsMemPortPoliceCfg
+DsMemRoute	DsMemRoute	1	15'b0_0000_0001_0011_10	DsMemRoute
+DsMemRouteTsn	DsMemRouteTsn	1	15'b0_0000_0001_0100_00	DsMemRouteTsn
+DsMemStorm	DsMemStorm	1	15'b0_0000_0001_0100_10	DsMemStorm
+DsMemStormCtrl	DsMemStormCtrl	1	15'b0_0000_0001_0101_00	DsMemStormCtrl
+DsMemStreamRcvyCfg	DsMemStreamRcvyCfg	0	15'b0_0000_0001_0101_1??	DsMemStreamRcvyCfg
+DsMemStreamRcvyCnt	DsMemStreamRcvyCnt	0	15'b0_0000_0001_0110_0??	DsMemStreamRcvyCnt
+DsMemStreamRcvySeq	DsMemStreamRcvySeq	0	15'b0_0000_0001_0110_1??	DsMemStreamRcvySeq
+DsRegPortLearnCtrl	DsRegPortLearnCtrl	1	15'b0_0000_0001_0111_00	DsRegPortLearnCtrl
+DsRegPortLearnNum	DsRegPortLearnNum	1	15'b0_0000_0001_0111_10	DsRegPortLearnNum
+MsgAdmInfo0	MsgAdmInfo0	0	15'b0_0000_0001_1000_0??	MsgAdmInfo0
+TmpDsMemMac	TmpDsMemMac	0	15'b0_0000_0001_1000_1??	TmpDsMemMac
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	CtlMacLearn
+cpuLearnEn	0	0	0	Y	N	N	N	cpuLearnEn field	1'h0
+cpuLearnNum	0	1	1	Y	N	N	N	cpuLearnNum field	1'h0
+cpuFifoDepth	0	2	2	Y	N	N	N	cpuFifoDepth field	1'h0
+cpuLrnNumThrd	0	3	3	Y	N	N	N	cpuLrnNumThrd field	1'h0
+hwLearnNum	0	4	4	Y	N	N	N	hwLearnNum field	1'h0
+hwFifoDepth	0	5	5	Y	N	N	N	hwFifoDepth field	1'h0
+hwLrnNumThrd	0	6	6	Y	N	N	N	hwLrnNumThrd field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	CtlPktProcLog
+cpuFifoFullNum	0	0	0	Y	N	N	N	cpuFifoFullNum field	1'h0
+hwFifoFullNum	0	1	1	Y	N	N	N	hwFifoFullNum field	1'h0
+aclQosLogEn	0	2	2	Y	N	N	N	aclQosLogEn field	1'h0
+aclDiscard	0	3	3	Y	N	N	N	aclDiscard field	1'h0
+routeDiscard	0	4	4	Y	N	N	N	routeDiscard field	1'h0
+routeExcpDiscard	0	5	5	Y	N	N	N	routeExcpDiscard field	1'h0
+routeProcess	0	6	6	Y	N	N	N	routeProcess field	1'h0
+bridgeProcess	0	7	7	Y	N	N	N	bridgeProcess field	1'h0
+destMacKnown	0	8	8	Y	N	N	N	destMacKnown field	1'h0
+l2UcastSrcMatchDiscard	0	9	9	Y	N	N	N	l2UcastSrcMatchDiscard field	1'h0
+macDaDiscard	0	10	10	Y	N	N	N	macDaDiscard field	1'h0
+igrStpCheckDiscard	0	11	11	Y	N	N	N	igrStpCheckDiscard field	1'h0
+stormDrop	0	12	12	Y	N	N	N	stormDrop field	1'h0
+lrnPortLockDiscard	0	13	13	Y	N	N	N	lrnPortLockDiscard field	1'h0
+lrnNumExceedDiscard	0	14	14	Y	N	N	N	lrnNumExceedDiscard field	1'h0
+isTsn	0	15	15	Y	N	N	N	isTsn field	1'h0
+tsnHandle	0	16	16	Y	N	N	N	tsnHandle field	1'h0
+igrFlowSpan	0	17	17	Y	N	N	N	igrFlowSpan field	1'h0
+entryPend	0	18	18	Y	N	N	N	entryPend field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	CtlPpGapConfig
+gapValue	0	0	0	Y	N	N	N	gapValue field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	CtlStormCntl
+enable	0	0	0	Y	N	N	N	enable field	1'h0
+stormCurPtr	0	1	1	Y	N	N	N	stormCurPtr field	1'h0
+stormInterval	0	2	2	Y	N	N	N	stormInterval field	1'h0
+stormMaxPtr	0	3	3	Y	N	N	N	stormMaxPtr field	1'h0
+stormMinPtr	0	4	4	Y	N	N	N	stormMinPtr field	1'h0
+stormFinalDelay	0	5	5	Y	N	N	N	stormFinalDelay field	1'h0
+stormCurRound	0	6	6	Y	N	N	N	stormCurRound field	1'h0
+stormUpdRound	0	7	7	Y	N	N	N	stormUpdRound field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemAclTsn
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemCustomFdb
+isTsn	0	0	0	Y	N	N	N	isTsn field	1'h0
+tsnHandle	0	1	1	Y	N	N	N	tsnHandle field	1'h0
+flowPolicePtr	0	2	2	Y	N	N	N	flowPolicePtr field	1'h0
+flowPoliceValid	0	3	3	Y	N	N	N	flowPoliceValid field	1'h0
+flowStatsValid	0	4	4	Y	N	N	N	flowStatsValid field	1'h0
+flowStatsPtr	0	5	5	Y	N	N	N	flowStatsPtr field	1'h0
+destMap	0	6	6	Y	N	N	N	destMap field	1'h0
+isMcast	0	7	7	Y	N	N	N	isMcast field	1'h0
+mirrorEn	0	8	8	Y	N	N	N	mirrorEn field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemFlowColorStats
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemFlowPolice
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemFlowPoliceCfg
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostRoute
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostRouteLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostRouteLeftKey
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostRouteLeftValid
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostRouteRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostRouteRightKey
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostRouteRightValid
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostTsn
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostTsnLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostTsnRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemIndvRcvyCfg
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemIndvRcvyCnt
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemIndvRcvySeq
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMac
+pending	0	0	0	Y	N	N	N	pending field	1'h0
+flowPolicePtr	0	1	1	Y	N	N	N	flowPolicePtr field	1'h0
+flowPoliceValid	0	2	2	Y	N	N	N	flowPoliceValid field	1'h0
+flowStatsValid	0	3	3	Y	N	N	N	flowStatsValid field	1'h0
+flowStatsPtr	0	4	4	Y	N	N	N	flowStatsPtr field	1'h0
+destMap	0	5	5	Y	N	N	N	destMap field	1'h0
+isMcast	0	6	6	Y	N	N	N	isMcast field	1'h0
+mirrorEn	0	7	7	Y	N	N	N	mirrorEn field	1'h0
+dstDiscard	0	8	8	Y	N	N	N	dstDiscard field	1'h0
+copyToCpu	0	9	9	Y	N	N	N	copyToCpu field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacAgingLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacAgingRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacKeyLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacKeyRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacStaticLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacStaticRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacTsn
+isTsn	0	0	0	Y	N	N	N	isTsn field	1'h0
+tsnHandle	0	1	1	Y	N	N	N	tsnHandle field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacTsnLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacTsnRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacValidLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacValidRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemPortColorStats
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemPortPolice
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemPortPoliceCfg
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemRoute
+destMap	0	0	0	Y	N	N	N	destMap field	1'h0
+nexthopIdx	0	1	1	Y	N	N	N	nexthopIdx field	1'h0
+flowPolicePtr	0	2	2	Y	N	N	N	flowPolicePtr field	1'h0
+flowPoliceValid	0	3	3	Y	N	N	N	flowPoliceValid field	1'h0
+flowStatsValid	0	4	4	Y	N	N	N	flowStatsValid field	1'h0
+flowStatsPtr	0	5	5	Y	N	N	N	flowStatsPtr field	1'h0
+mirrorEn	0	6	6	Y	N	N	N	mirrorEn field	1'h0
+discard	0	7	7	Y	N	N	N	discard field	1'h0
+copyToCpu	0	8	8	Y	N	N	N	copyToCpu field	1'h0
+nat	0	9	9	Y	N	N	N	nat field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemRouteTsn
+isTsn	0	0	0	Y	N	N	N	isTsn field	1'h0
+tsnHandle	0	1	1	Y	N	N	N	tsnHandle field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemStorm
+runningCounter	0	0	0	Y	N	N	N	runningCounter field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemStormCtrl
+stormCtrlEn	0	0	0	Y	N	N	N	stormCtrlEn field	1'h0
+threshold	0	1	1	Y	N	N	N	threshold field	1'h0
+usePktCount	0	2	2	Y	N	N	N	usePktCount field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemStreamRcvyCfg
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemStreamRcvyCnt
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemStreamRcvySeq
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsRegPortLearnCtrl
+lock	0	0	0	Y	N	N	N	lock field	1'h0
+violationToCpu	0	1	1	Y	N	N	N	violationToCpu field	1'h0
+maxMacNum	0	2	2	Y	N	N	N	maxMacNum field	1'h0
+macNumLimitEn	0	3	3	Y	N	N	N	macNumLimitEn field	1'h0
+lrnNumExceedDiscard	0	4	4	Y	N	N	N	lrnNumExceedDiscard field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsRegPortLearnNum
+learntMacNum	0	0	0	Y	N	N	N	learntMacNum field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	MsgAdmInfo0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	TmpDsMemMac

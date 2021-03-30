@@ -1,0 +1,6 @@
+Name	DsMemCuMacKeyR	EntryNumber	1
+valid[0:0]	RO	0	
+macAddr0[0:0]	RO	0	
+macAddrHi0[0:0]	RO	0	
+macAddr1[0:0]	RO	0	
+macAddrHi1[0:0]	RO	0	

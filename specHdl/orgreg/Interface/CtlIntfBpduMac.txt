@@ -1,0 +1,5 @@
+Name	CtlIntfBpduMac	EntryNumber	1
+sBpduMac[0:0]	RO	0	
+sBpduMacHi[0:0]	RO	0	
+cBpduMac[0:0]	RO	0	
+cBpduMacHi[0:0]	RO	0	

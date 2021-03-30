@@ -1,0 +1,6 @@
+Name	DsMemDestVlan	EntryNumber	1
+l3IfCheck[0:0]	RO	0	
+mtuCheck[0:0]	RO	0	
+mtuSize[0:0]	RO	0	
+untagPortBmp[0:0]	RO	0	
+vlanEthOamEn[0:0]	RO	0	

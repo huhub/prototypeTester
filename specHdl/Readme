@@ -1,0 +1,8 @@
+parserspec.py is used to handle spec, the main purpose of it is that the spec designer just need to focus on the funtion, and does't care too much about implementaion details. 
+parserspec.py will generate seveval .xlsx file for spec designer to complete infomation about tables and PIs(maybe PRs). Once the .xlsx file is filled done, we can use them to generage orgReg, regTxt, c language head file, verilog head file, new specs that is more in line with verilog syntax and cmodel.
+
+class ParserSpec: use to generate raw data extracted from spec, then create .xlsx as the source data.
+each kind of file will in the special directory, you can easy understand from the name.
+usage: first you have to fill list whose name is specNameList, the order is the same as the pipeline of the spec, then you can run it use command line 'python3 parserspec.py'.
+It will print PI value that spec designer uses it before he defines. 
+the .xlsx is consist of sheets whose names are modules'.

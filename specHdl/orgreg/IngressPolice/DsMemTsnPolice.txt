@@ -1,0 +1,4 @@
+Name	DsMemTsnPolice	EntryNumber	1
+policeIndex[0:0]	RO	0	
+chkSDUen[0:0]	RO	0	
+maxSDU[0:0]	RO	0	

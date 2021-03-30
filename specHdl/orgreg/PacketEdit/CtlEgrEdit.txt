@@ -1,0 +1,11 @@
+Name	CtlEgrEdit	EntryNumber	1
+v4PtpUdpChksumSet0[0:0]	RO	0	
+rtagTpid[0:0]	RO	0	
+rtagContent[0:0]	RO	0	
+ptpUpdMacSaEn[0:0]	RO	0	
+ptpMacAddr[0:0]	RO	0	
+ptpMacAddrHi[0:0]	RO	0	
+updV6PtpUdpChksum[0:0]	RO	0	
+ptpDevType[0:0]	RO	0	
+cfMissedType[0:0]	RO	0	
+tsMissedType[0:0]	RO	0	

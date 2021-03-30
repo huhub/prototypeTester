@@ -1,0 +1,7 @@
+Name	CtlRcvyLog	EntryNumber	1
+tsnStreamId[0:0]	RO	0	
+rtagSeq[0:0]	RO	0	
+discardIndv[0:0]	RO	0	
+seqDeltaIndv[0:0]	RO	0	
+discardMerg[0:0]	RO	0	
+seqDeltaMerg[0:0]	RO	0	

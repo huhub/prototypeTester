@@ -1,0 +1,4 @@
+Name	DsRegLagGrp	EntryNumber	1
+memberBitmap[0:0]	RO	0	
+linkNumber[0:0]	RO	0	
+srcMatchDiscard[0:0]	RO	0	

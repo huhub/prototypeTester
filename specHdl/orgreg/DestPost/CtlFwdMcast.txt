@@ -1,0 +1,3 @@
+Name	CtlFwdMcast	EntryNumber	1
+mcFilteringEn[0:0]	RO	0	
+mcastExcludeSrc[0:0]	RO	0	

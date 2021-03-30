@@ -1,0 +1,8 @@
+Name	CtlMacLearn	EntryNumber	1
+cpuLearnEn[0:0]	RO	0	
+cpuLearnNum[0:0]	RO	0	
+cpuFifoDepth[0:0]	RO	0	
+cpuLrnNumThrd[0:0]	RO	0	
+hwLearnNum[0:0]	RO	0	
+hwFifoDepth[0:0]	RO	0	
+hwLrnNumThrd[0:0]	RO	0	

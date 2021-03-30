@@ -1,0 +1,5 @@
+Name	DsMemTsnSpec	EntryNumber	1
+gateId[0:0]	RO	0	
+cycleSel[0:0]	RO	0	
+prior[0:0]	RO	0	
+addRtag[0:0]	RO	0	

@@ -1,0 +1,2 @@
+Name	DsMemL3Mcast	EntryNumber	1
+nexthopIdx[0:0]	RO	0	

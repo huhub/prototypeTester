@@ -1,0 +1,7 @@
+Name	CtlRcvy	EntryNumber	1
+indvSeqResetEn[0:0]	RO	0	
+indvDelayPerEntry[0:0]	RO	0	
+indvMinusCycle[0:0]	RO	0	
+mergeSeqResetEn[0:0]	RO	0	
+mergeDelayPerEntry[0:0]	RO	0	
+mergeMinusCycle[0:0]	RO	0	

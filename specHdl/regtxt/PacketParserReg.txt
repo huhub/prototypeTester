@@ -1,0 +1,357 @@
+FileName	Prefix	AddrUpper	AddrLower	FlopInput
+PacketParserReg	PACKETPARSER_	16	2	Y
+
+Register	FullName	Words	DecodeAddress	Description
+CtlDosControl	CtlDosControl	1	15'b0_0000_0000_0000_00	CtlDosControl
+CtlL2HdrProtoCam	CtlL2HdrProtoCam	1	15'b0_0000_0000_0001_00	CtlL2HdrProtoCam
+CtlL3HdrProtoCam	CtlL3HdrProtoCam	3	15'b0_0000_0000_0010_??	CtlL3HdrProtoCam
+CtlParserEthernet	CtlParserEthernet	1	15'b0_0000_0000_0011_00	CtlParserEthernet
+CtlParserL4Port	CtlParserL4Port	1	15'b0_0000_0000_0100_00	CtlParserL4Port
+CtlParserTsn	CtlParserTsn	1	15'b0_0000_0000_0101_00	CtlParserTsn
+CtlPktParserLog	CtlPktParserLog	1	15'b0_0000_0000_0110_00	CtlPktParserLog
+DsMemAclTsn	DsMemAclTsn	0	15'b0_0000_0000_0111_??	DsMemAclTsn
+DsMemFlowColorStats	DsMemFlowColorStats	0	15'b0_0000_0000_1000_??	DsMemFlowColorStats
+DsMemFlowPolice	DsMemFlowPolice	0	15'b0_0000_0000_1001_??	DsMemFlowPolice
+DsMemFlowPoliceCfg	DsMemFlowPoliceCfg	0	15'b0_0000_0000_1010_??	DsMemFlowPoliceCfg
+DsMemHostRoute	DsMemHostRoute	0	15'b0_0000_0000_1011_??	DsMemHostRoute
+DsMemHostRouteLeft	DsMemHostRouteLeft	0	15'b0_0000_0000_1100_??	DsMemHostRouteLeft
+DsMemHostRouteLeftKey	DsMemHostRouteLeftKey	0	15'b0_0000_0000_1101_??	DsMemHostRouteLeftKey
+DsMemHostRouteLeftValid	DsMemHostRouteLeftValid	0	15'b0_0000_0000_1110_??	DsMemHostRouteLeftValid
+DsMemHostRouteRight	DsMemHostRouteRight	0	15'b0_0000_0000_1111_??	DsMemHostRouteRight
+DsMemHostRouteRightKey	DsMemHostRouteRightKey	0	15'b0_0000_0001_0000_??	DsMemHostRouteRightKey
+DsMemHostRouteRightValid	DsMemHostRouteRightValid	0	15'b0_0000_0001_0001_??	DsMemHostRouteRightValid
+DsMemHostTsn	DsMemHostTsn	0	15'b0_0000_0001_0010_??	DsMemHostTsn
+DsMemHostTsnLeft	DsMemHostTsnLeft	0	15'b0_0000_0001_0011_??	DsMemHostTsnLeft
+DsMemHostTsnRight	DsMemHostTsnRight	0	15'b0_0000_0001_0100_??	DsMemHostTsnRight
+DsMemIndvRcvyCfg	DsMemIndvRcvyCfg	0	15'b0_0000_0001_0101_??	DsMemIndvRcvyCfg
+DsMemIndvRcvyCnt	DsMemIndvRcvyCnt	0	15'b0_0000_0001_0110_??	DsMemIndvRcvyCnt
+DsMemIndvRcvySeq	DsMemIndvRcvySeq	0	15'b0_0000_0001_0111_??	DsMemIndvRcvySeq
+DsMemMacAgingLeft	DsMemMacAgingLeft	0	15'b0_0000_0001_1000_??	DsMemMacAgingLeft
+DsMemMacAgingRight	DsMemMacAgingRight	0	15'b0_0000_0001_1001_??	DsMemMacAgingRight
+DsMemMacKeyLeft	DsMemMacKeyLeft	0	15'b0_0000_0001_1010_??	DsMemMacKeyLeft
+DsMemMacKeyRight	DsMemMacKeyRight	0	15'b0_0000_0001_1011_??	DsMemMacKeyRight
+DsMemMacLeft	DsMemMacLeft	0	15'b0_0000_0001_1100_??	DsMemMacLeft
+DsMemMacRight	DsMemMacRight	0	15'b0_0000_0001_1101_??	DsMemMacRight
+DsMemMacStaticLeft	DsMemMacStaticLeft	0	15'b0_0000_0001_1110_??	DsMemMacStaticLeft
+DsMemMacStaticRight	DsMemMacStaticRight	0	15'b0_0000_0001_1111_??	DsMemMacStaticRight
+DsMemMacTsn	DsMemMacTsn	0	15'b0_0000_0010_0000_??	DsMemMacTsn
+DsMemMacTsnLeft	DsMemMacTsnLeft	0	15'b0_0000_0010_0001_??	DsMemMacTsnLeft
+DsMemMacTsnRight	DsMemMacTsnRight	0	15'b0_0000_0010_0010_??	DsMemMacTsnRight
+DsMemMacValidLeft	DsMemMacValidLeft	0	15'b0_0000_0010_0011_??	DsMemMacValidLeft
+DsMemMacValidRight	DsMemMacValidRight	0	15'b0_0000_0010_0100_??	DsMemMacValidRight
+DsMemPortColorStats	DsMemPortColorStats	0	15'b0_0000_0010_0101_??	DsMemPortColorStats
+DsMemPortPolice	DsMemPortPolice	0	15'b0_0000_0010_0110_??	DsMemPortPolice
+DsMemPortPoliceCfg	DsMemPortPoliceCfg	0	15'b0_0000_0010_0111_??	DsMemPortPoliceCfg
+DsMemRouteTsn	DsMemRouteTsn	0	15'b0_0000_0010_1000_??	DsMemRouteTsn
+DsMemStreamRcvyCfg	DsMemStreamRcvyCfg	0	15'b0_0000_0010_1001_??	DsMemStreamRcvyCfg
+DsMemStreamRcvyCnt	DsMemStreamRcvyCnt	0	15'b0_0000_0010_1010_??	DsMemStreamRcvyCnt
+DsMemStreamRcvySeq	DsMemStreamRcvySeq	0	15'b0_0000_0010_1011_??	DsMemStreamRcvySeq
+DsMemUdfOffset	DsMemUdfOffset	1	15'b0_0000_0010_1100_00	DsMemUdfOffset
+MsgAdmInfo0	MsgAdmInfo0	0	15'b0_0000_0010_1101_??	MsgAdmInfo0
+TmpDsMemMac	TmpDsMemMac	0	15'b0_0000_0010_1110_??	TmpDsMemMac
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	CtlDosControl
+macSaEqMacDaDrop	0	0	0	Y	N	N	N	macSaEqMacDaDrop field	1'h0
+sipEqDipDrop	0	1	1	Y	N	N	N	sipEqDipDrop field	1'h0
+icmpFragDrop	0	2	2	Y	N	N	N	icmpFragDrop field	1'h0
+icmpV4PingSizeCheck	0	3	3	Y	N	N	N	icmpV4PingSizeCheck field	1'h0
+icmpV4MaxSize	0	4	4	Y	N	N	N	icmpV4MaxSize field	1'h0
+icmpV6PingSizeCheck	0	5	5	Y	N	N	N	icmpV6PingSizeCheck field	1'h0
+icmpV6MaxSize	0	6	6	Y	N	N	N	icmpV6MaxSize field	1'h0
+tcpFlagsCtl0Seq0En	0	7	7	Y	N	N	N	tcpFlagsCtl0Seq0En field	1'h0
+tcpSportEqDportDrop	0	8	8	Y	N	N	N	tcpSportEqDportDrop field	1'h0
+tcpFlagSynFinDrop	0	9	9	Y	N	N	N	tcpFlagSynFinDrop field	1'h0
+tcpFlagFinUrgPshSeq0Drop	0	10	10	Y	N	N	N	tcpFlagFinUrgPshSeq0Drop field	1'h0
+tcpFragOffset1Drop	0	11	11	Y	N	N	N	tcpFragOffset1Drop field	1'h0
+tcpHdrPartialDrop	0	12	12	Y	N	N	N	tcpHdrPartialDrop field	1'h0
+udpSportEqDportDrop	0	13	13	Y	N	N	N	udpSportEqDportDrop field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	CtlL2HdrProtoCam
+valid	0	0	0	Y	N	N	N	valid field	1'h0
+l2ProtoData0	0	1	1	Y	N	N	N	l2ProtoData0 field	1'h0
+l2ProtoMask0	0	2	2	Y	N	N	N	l2ProtoMask0 field	1'h0
+l3Type0	0	3	3	Y	N	N	N	l3Type0 field	1'h0
+l2ProtoData1	0	4	4	Y	N	N	N	l2ProtoData1 field	1'h0
+l2ProtoMask1	0	5	5	Y	N	N	N	l2ProtoMask1 field	1'h0
+l3Type1	0	6	6	Y	N	N	N	l3Type1 field	1'h0
+l2ProtoData2	0	7	7	Y	N	N	N	l2ProtoData2 field	1'h0
+l2ProtoMask2	0	8	8	Y	N	N	N	l2ProtoMask2 field	1'h0
+l3Type2	0	9	9	Y	N	N	N	l3Type2 field	1'h0
+l2ProtoData3	0	10	10	Y	N	N	N	l2ProtoData3 field	1'h0
+l2ProtoMask3	0	11	11	Y	N	N	N	l2ProtoMask3 field	1'h0
+l3Type3	0	12	12	Y	N	N	N	l3Type3 field	1'h0
+l2ProtoData4	0	13	13	Y	N	N	N	l2ProtoData4 field	1'h0
+l2ProtoMask4	0	14	14	Y	N	N	N	l2ProtoMask4 field	1'h0
+l3Type4	0	15	15	Y	N	N	N	l3Type4 field	1'h0
+l2ProtoData5	0	16	16	Y	N	N	N	l2ProtoData5 field	1'h0
+l2ProtoMask5	0	17	17	Y	N	N	N	l2ProtoMask5 field	1'h0
+l3Type5	0	18	18	Y	N	N	N	l3Type5 field	1'h0
+l2ProtoData6	0	19	19	Y	N	N	N	l2ProtoData6 field	1'h0
+l2ProtoMask6	0	20	20	Y	N	N	N	l2ProtoMask6 field	1'h0
+l3Type6	0	21	21	Y	N	N	N	l3Type6 field	1'h0
+l2ProtoData7	0	22	22	Y	N	N	N	l2ProtoData7 field	1'h0
+l2ProtoMask7	0	23	23	Y	N	N	N	l2ProtoMask7 field	1'h0
+l3Type7	0	24	24	Y	N	N	N	l3Type7 field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	CtlL3HdrProtoCam
+isValid	0	0	0	Y	N	N	N	isValid field	1'h0
+l3TypeMask0	0	1	1	Y	N	N	N	l3TypeMask0 field	1'h0
+l3TypeData0	0	2	2	Y	N	N	N	l3TypeData0 field	1'h0
+l3ProtoMask0	0	3	3	Y	N	N	N	l3ProtoMask0 field	1'h0
+l3ProtoData0	0	4	4	Y	N	N	N	l3ProtoData0 field	1'h0
+l4Type0	0	5	5	Y	N	N	N	l4Type0 field	1'h0
+protocol	0	6	6	Y	N	N	N	protocol field	1'h0
+l3TypeMask1	0	7	7	Y	N	N	N	l3TypeMask1 field	1'h0
+l3TypeData1	0	8	8	Y	N	N	N	l3TypeData1 field	1'h0
+l3ProtoMask1	0	9	9	Y	N	N	N	l3ProtoMask1 field	1'h0
+l3ProtoData1	0	10	10	Y	N	N	N	l3ProtoData1 field	1'h0
+l4Type1	0	11	11	Y	N	N	N	l4Type1 field	1'h0
+l3TypeMask2	0	12	12	Y	N	N	N	l3TypeMask2 field	1'h0
+l3TypeData2	0	13	13	Y	N	N	N	l3TypeData2 field	1'h0
+l3ProtoMask2	0	14	14	Y	N	N	N	l3ProtoMask2 field	1'h0
+l3ProtoData2	0	15	15	Y	N	N	N	l3ProtoData2 field	1'h0
+l4Type2	0	16	16	Y	N	N	N	l4Type2 field	1'h0
+l3TypeMask3	0	17	17	Y	N	N	N	l3TypeMask3 field	1'h0
+l3TypeData3	0	18	18	Y	N	N	N	l3TypeData3 field	1'h0
+l3ProtoMask3	0	19	19	Y	N	N	N	l3ProtoMask3 field	1'h0
+l3ProtoData3	0	20	20	Y	N	N	N	l3ProtoData3 field	1'h0
+l4Type3	0	21	21	Y	N	N	N	l4Type3 field	1'h0
+l3TypeMask4	0	22	22	Y	N	N	N	l3TypeMask4 field	1'h0
+l3TypeData4	0	23	23	Y	N	N	N	l3TypeData4 field	1'h0
+l3ProtoMask4	0	24	24	Y	N	N	N	l3ProtoMask4 field	1'h0
+l3ProtoData4	0	25	25	Y	N	N	N	l3ProtoData4 field	1'h0
+l4Type4	0	26	26	Y	N	N	N	l4Type4 field	1'h0
+l3TypeMask5	0	27	27	Y	N	N	N	l3TypeMask5 field	1'h0
+l3TypeData5	0	28	28	Y	N	N	N	l3TypeData5 field	1'h0
+l3ProtoMask5	0	29	29	Y	N	N	N	l3ProtoMask5 field	1'h0
+l3ProtoData5	0	30	30	Y	N	N	N	l3ProtoData5 field	1'h0
+l4Type5	0	31	31	Y	N	N	N	l4Type5 field	1'h0
+l3TypeMask6	1	0	0	Y	N	N	N	l3TypeMask6 field	1'h0
+l3TypeData6	1	1	1	Y	N	N	N	l3TypeData6 field	1'h0
+l3ProtoMask6	1	2	2	Y	N	N	N	l3ProtoMask6 field	1'h0
+l3ProtoData6	1	3	3	Y	N	N	N	l3ProtoData6 field	1'h0
+l4Type6	1	4	4	Y	N	N	N	l4Type6 field	1'h0
+l3TypeMask7	1	5	5	Y	N	N	N	l3TypeMask7 field	1'h0
+l3TypeData7	1	6	6	Y	N	N	N	l3TypeData7 field	1'h0
+l3ProtoMask7	1	7	7	Y	N	N	N	l3ProtoMask7 field	1'h0
+l3ProtoData7	1	8	8	Y	N	N	N	l3ProtoData7 field	1'h0
+l4Type7	1	9	9	Y	N	N	N	l4Type7 field	1'h0
+l3TypeMask8	1	10	10	Y	N	N	N	l3TypeMask8 field	1'h0
+l3TypeData8	1	11	11	Y	N	N	N	l3TypeData8 field	1'h0
+l3ProtoMask8	1	12	12	Y	N	N	N	l3ProtoMask8 field	1'h0
+l3ProtoData8	1	13	13	Y	N	N	N	l3ProtoData8 field	1'h0
+l4Type8	1	14	14	Y	N	N	N	l4Type8 field	1'h0
+l3TypeMask9	1	15	15	Y	N	N	N	l3TypeMask9 field	1'h0
+l3TypeData9	1	16	16	Y	N	N	N	l3TypeData9 field	1'h0
+l3ProtoMask9	1	17	17	Y	N	N	N	l3ProtoMask9 field	1'h0
+l3ProtoData9	1	18	18	Y	N	N	N	l3ProtoData9 field	1'h0
+l4Type9	1	19	19	Y	N	N	N	l4Type9 field	1'h0
+l3TypeMask10	1	20	20	Y	N	N	N	l3TypeMask10 field	1'h0
+l3TypeData10	1	21	21	Y	N	N	N	l3TypeData10 field	1'h0
+l3ProtoMask10	1	22	22	Y	N	N	N	l3ProtoMask10 field	1'h0
+l3ProtoData10	1	23	23	Y	N	N	N	l3ProtoData10 field	1'h0
+l4Type10	1	24	24	Y	N	N	N	l4Type10 field	1'h0
+l3TypeMask11	1	25	25	Y	N	N	N	l3TypeMask11 field	1'h0
+l3TypeData11	1	26	26	Y	N	N	N	l3TypeData11 field	1'h0
+l3ProtoMask11	1	27	27	Y	N	N	N	l3ProtoMask11 field	1'h0
+l3ProtoData11	1	28	28	Y	N	N	N	l3ProtoData11 field	1'h0
+l4Type11	1	29	29	Y	N	N	N	l4Type11 field	1'h0
+l3TypeMask12	1	30	30	Y	N	N	N	l3TypeMask12 field	1'h0
+l3TypeData12	1	31	31	Y	N	N	N	l3TypeData12 field	1'h0
+l3ProtoMask12	2	0	0	Y	N	N	N	l3ProtoMask12 field	1'h0
+l3ProtoData12	2	1	1	Y	N	N	N	l3ProtoData12 field	1'h0
+l4Type12	2	2	2	Y	N	N	N	l4Type12 field	1'h0
+l3TypeMask13	2	3	3	Y	N	N	N	l3TypeMask13 field	1'h0
+l3TypeData13	2	4	4	Y	N	N	N	l3TypeData13 field	1'h0
+l3ProtoMask13	2	5	5	Y	N	N	N	l3ProtoMask13 field	1'h0
+l3ProtoData13	2	6	6	Y	N	N	N	l3ProtoData13 field	1'h0
+l4Type13	2	7	7	Y	N	N	N	l4Type13 field	1'h0
+l3TypeMask14	2	8	8	Y	N	N	N	l3TypeMask14 field	1'h0
+l3TypeData14	2	9	9	Y	N	N	N	l3TypeData14 field	1'h0
+l3ProtoMask14	2	10	10	Y	N	N	N	l3ProtoMask14 field	1'h0
+l3ProtoData14	2	11	11	Y	N	N	N	l3ProtoData14 field	1'h0
+l4Type14	2	12	12	Y	N	N	N	l4Type14 field	1'h0
+l3TypeMask15	2	13	13	Y	N	N	N	l3TypeMask15 field	1'h0
+l3TypeData15	2	14	14	Y	N	N	N	l3TypeData15 field	1'h0
+l3ProtoMask15	2	15	15	Y	N	N	N	l3ProtoMask15 field	1'h0
+l3ProtoData15	2	16	16	Y	N	N	N	l3ProtoData15 field	1'h0
+l4Type15	2	17	17	Y	N	N	N	l4Type15 field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	CtlParserEthernet
+svlanTpid	0	0	0	Y	N	N	N	svlanTpid field	1'h0
+cvlanTpid	0	1	1	Y	N	N	N	cvlanTpid field	1'h0
+stagFirst	0	2	2	Y	N	N	N	stagFirst field	1'h0
+maxLength	0	3	3	Y	N	N	N	maxLength field	1'h0
+allowNoneZeroOui	0	4	4	Y	N	N	N	allowNoneZeroOui field	1'h0
+ethSapCtlLen	0	5	5	Y	N	N	N	ethSapCtlLen field	1'h0
+ccmOpcode	0	6	6	Y	N	N	N	ccmOpcode field	1'h0
+lmmOpcode	0	7	7	Y	N	N	N	lmmOpcode field	1'h0
+lmrOpcode	0	8	8	Y	N	N	N	lmrOpcode field	1'h0
+dmmOpcode	0	9	9	Y	N	N	N	dmmOpcode field	1'h0
+dmrOpcode	0	10	10	Y	N	N	N	dmrOpcode field	1'h0
+tcpHdrMinSize	0	11	11	Y	N	N	N	tcpHdrMinSize field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	CtlParserL4Port
+ptpPort0	0	0	0	Y	N	N	N	ptpPort0 field	1'h0
+ptpPort1	0	1	1	Y	N	N	N	ptpPort1 field	1'h0
+bfdPort0	0	2	2	Y	N	N	N	bfdPort0 field	1'h0
+bfdPort1	0	3	3	Y	N	N	N	bfdPort1 field	1'h0
+bfdEcho	0	4	4	Y	N	N	N	bfdEcho field	1'h0
+avbPortLo	0	5	5	Y	N	N	N	avbPortLo field	1'h0
+avbPortHi	0	6	6	Y	N	N	N	avbPortHi field	1'h0
+snmpPort0	0	7	7	Y	N	N	N	snmpPort0 field	1'h0
+snmpPort1	0	8	8	Y	N	N	N	snmpPort1 field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	CtlParserTsn
+rtagTpid	0	0	0	Y	N	N	N	rtagTpid field	1'h0
+prpTpid	0	1	1	Y	N	N	N	prpTpid field	1'h0
+hsrTpid	0	2	2	Y	N	N	N	hsrTpid field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	CtlPktParserLog
+userData0	0	0	0	Y	N	N	N	userData0 field	1'h0
+userData1	0	1	1	Y	N	N	N	userData1 field	1'h0
+randomSeed	0	2	2	Y	N	N	N	randomSeed field	1'h0
+dosDropBmp	0	3	3	Y	N	N	N	dosDropBmp field	1'h0
+l2Type	0	4	4	Y	N	N	N	l2Type field	1'h0
+stagValid	0	5	5	Y	N	N	N	stagValid field	1'h0
+ctagValid	0	6	6	Y	N	N	N	ctagValid field	1'h0
+rtagValid	0	7	7	Y	N	N	N	rtagValid field	1'h0
+l3Type	0	8	8	Y	N	N	N	l3Type field	1'h0
+l4Type	0	9	9	Y	N	N	N	l4Type field	1'h0
+l2HdrError	0	10	10	Y	N	N	N	l2HdrError field	1'h0
+l3HdrError	0	11	11	Y	N	N	N	l3HdrError field	1'h0
+l4HdrError	0	12	12	Y	N	N	N	l4HdrError field	1'h0
+rtcpPkt	0	13	13	Y	N	N	N	rtcpPkt field	1'h0
+isPtp	0	14	14	Y	N	N	N	isPtp field	1'h0
+rtpPkt	0	15	15	Y	N	N	N	rtpPkt field	1'h0
+snmpPkt	0	16	16	Y	N	N	N	snmpPkt field	1'h0
+isBfd	0	17	17	Y	N	N	N	isBfd field	1'h0
+jumboNum	0	18	18	Y	N	N	N	jumboNum field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemAclTsn
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemFlowColorStats
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemFlowPolice
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemFlowPoliceCfg
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostRoute
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostRouteLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostRouteLeftKey
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostRouteLeftValid
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostRouteRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostRouteRightKey
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostRouteRightValid
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostTsn
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostTsnLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemHostTsnRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemIndvRcvyCfg
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemIndvRcvyCnt
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemIndvRcvySeq
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacAgingLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacAgingRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacKeyLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacKeyRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacStaticLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacStaticRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacTsn
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacTsnLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacTsnRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacValidLeft
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemMacValidRight
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemPortColorStats
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemPortPolice
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemPortPoliceCfg
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemRouteTsn
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemStreamRcvyCfg
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemStreamRcvyCnt
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemStreamRcvySeq
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	DsMemUdfOffset
+udfOffset0	0	0	0	Y	N	N	N	udfOffset0 field	1'h0
+udfOffset1	0	1	1	Y	N	N	N	udfOffset1 field	1'h0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	MsgAdmInfo0
+
+
+Fields	Offset	HiBit	LoBit	ReadOnly	ReadIndicate	WriteIndicate	WriteOneIndicate	Description	TmpDsMemMac

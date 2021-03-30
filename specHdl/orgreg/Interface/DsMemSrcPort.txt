@@ -1,0 +1,25 @@
+Name	DsMemSrcPort	EntryNumber	1
+defaultVlanId[0:0]	RO	0	
+l2AclLabel[0:0]	RO	0	
+linkAggId[0:0]	RO	0	
+defaultPcp[0:0]	RO	0	
+qosPolicy[0:0]	RO	0	
+aft[0:0]	RO	0	
+isLinkAggMbr[0:0]	RO	0	
+ingressFilteringEn[0:0]	RO	0	
+portPoliceEn[0:0]	RO	0	
+lrnDisable[0:0]	RO	0	
+l2SrcMatchDiscard[0:0]	RO	0	
+bpduDrop[0:0]	RO	0	
+stpDisable[0:0]	RO	0	
+forcePortBasedVlan[0:0]	RO	0	
+l2AclEn[0:0]	RO	0	
+l2AclHiPrio[0:0]	RO	0	
+ipv4ForceMacKey[0:0]	RO	0	
+ipv6ForceMacKey[0:0]	RO	0	
+replaceDscp[0:0]	RO	0	
+replaceCos[0:0]	RO	0	
+vlanPrioEn[0:0]	RO	0	
+macBasedVlanHiPrio[0:0]	RO	0	
+keepVlanTag[0:0]	RO	0	
+ingressL2SpanEn[0:0]	RO	0	

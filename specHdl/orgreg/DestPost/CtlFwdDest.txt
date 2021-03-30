@@ -1,0 +1,3 @@
+Name	CtlFwdDest	EntryNumber	1
+redirPtpType[0:0]	RO	0	
+ptpSnifferType[0:0]	RO	0	

@@ -1,0 +1,18 @@
+Name	CtlProtocolVlanKey	EntryNumber	1
+entryValid[0:0]	RO	0	
+protoData0[0:0]	RO	0	
+protoMask0[0:0]	RO	0	
+protoData1[0:0]	RO	0	
+protoMask1[0:0]	RO	0	
+protoData2[0:0]	RO	0	
+protoMask2[0:0]	RO	0	
+protoData3[0:0]	RO	0	
+protoMask3[0:0]	RO	0	
+protoData4[0:0]	RO	0	
+protoMask4[0:0]	RO	0	
+protoData5[0:0]	RO	0	
+protoMask5[0:0]	RO	0	
+protoData6[0:0]	RO	0	
+protoMask6[0:0]	RO	0	
+protoData7[0:0]	RO	0	
+protoMask7[0:0]	RO	0	

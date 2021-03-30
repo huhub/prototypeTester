@@ -1,0 +1,2 @@
+Name	DsMemCpuPolicePtrMap	EntryNumber	1
+policePtr[0:0]	RO	0	

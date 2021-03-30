@@ -1,0 +1,15 @@
+Name	CtlLkpMngLog	EntryNumber	1
+macDaIdx[0:0]	RO	0	
+aclIndex[0:0]	RO	0	
+routeHitTcam[0:0]	RO	0	
+ipRouteLookup[0:0]	RO	0	
+routeHitNatTcam[0:0]	RO	0	
+hostRouteLeftHit[0:0]	RO	0	
+hostRouteRightHit[0:0]	RO	0	
+aclResultValid[0:0]	RO	0	
+ipv6AclLookup[0:0]	RO	0	
+ipRouteIdx[0:0]	RO	0	
+ipv4AclLookup[0:0]	RO	0	
+macAclLookup[0:0]	RO	0	
+macDaLeftValid[0:0]	RO	0	
+macDaRightValid[0:0]	RO	0	

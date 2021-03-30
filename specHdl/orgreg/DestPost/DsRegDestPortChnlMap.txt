@@ -1,0 +1,2 @@
+Name	DsRegDestPortChnlMap	EntryNumber	1
+channelId[0:0]	RO	0	

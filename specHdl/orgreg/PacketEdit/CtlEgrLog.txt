@@ -1,0 +1,24 @@
+Name	CtlEgrLog	EntryNumber	1
+vlanId[0:0]	RO	0	
+excpType[0:0]	RO	0	
+opCode[0:0]	RO	0	
+egrDiscard[0:0]	RO	0	
+routedPkt[0:0]	RO	0	
+removeCpuHdr[0:0]	RO	0	
+addCpuHdr[0:0]	RO	0	
+updateMacDa[0:0]	RO	0	
+updateMacSa[0:0]	RO	0	
+removeVlanTag[0:0]	RO	0	
+addVlanTag[0:0]	RO	0	
+remoteSpan[0:0]	RO	0	
+addRtag[0:0]	RO	0	
+replaceCos[0:0]	RO	0	
+replaceDscp[0:0]	RO	0	
+egrStpChkFail[0:0]	RO	0	
+ptpPortTypeChkFail[0:0]	RO	0	
+ptpType[0:0]	RO	0	
+updPtpTs[0:0]	RO	0	
+updPtpCf[0:0]	RO	0	
+intrPtpTs[0:0]	RO	0	
+xconErr[0:0]	RO	0	
+truncateCpuPkt[0:0]	RO	0	

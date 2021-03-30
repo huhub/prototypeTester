@@ -1,0 +1,4 @@
+Name	CtlManageVlan	EntryNumber	1
+vlanId0[0:0]	RO	0	
+vlanId1[0:0]	RO	0	
+rmtVlanId[0:0]	RO	0	

@@ -1,0 +1,9 @@
+Name	DsMemDestPort	EntryNumber	1
+ptpEn[0:0]	RO	0	
+specifyOutVid[0:0]	RO	0	
+dot1qType[0:0]	RO	0	
+replaceCos[0:0]	RO	0	
+replaceDscp[0:0]	RO	0	
+ptpPortType[0:0]	RO	0	
+specifiedVlanId[0:0]	RO	0	
+portEthOamEn[0:0]	RO	0	

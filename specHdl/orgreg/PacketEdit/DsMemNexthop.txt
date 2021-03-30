@@ -1,0 +1,7 @@
+Name	DsMemNexthop	EntryNumber	1
+vlanId[0:0]	RO	0	
+ipSa[0:0]	RO	0	
+l4SrcPort[0:0]	RO	0	
+macDaHi[0:0]	RO	0	
+macDa[0:0]	RO	0	
+routerMacIdx[0:0]	RO	0	

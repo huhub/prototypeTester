@@ -1,0 +1,6 @@
+Name	DsRegPortLearnCtrl	EntryNumber	1
+lock[0:0]	RO	0	
+violationToCpu[0:0]	RO	0	
+maxMacNum[0:0]	RO	0	
+macNumLimitEn[0:0]	RO	0	
+lrnNumExceedDiscard[0:0]	RO	0	

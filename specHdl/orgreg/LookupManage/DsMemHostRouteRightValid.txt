@@ -1,0 +1,2 @@
+Name	DsMemHostRouteRightValid	EntryNumber	1
+isValid[0:0]	RO	0	

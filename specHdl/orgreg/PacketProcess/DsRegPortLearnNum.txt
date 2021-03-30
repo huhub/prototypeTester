@@ -1,0 +1,2 @@
+Name	DsRegPortLearnNum	EntryNumber	1
+learntMacNum[0:0]	RO	0	

@@ -1,0 +1,2 @@
+Name	DsRegPtpTimer	EntryNumber	1
+value[0:0]	RO	0	

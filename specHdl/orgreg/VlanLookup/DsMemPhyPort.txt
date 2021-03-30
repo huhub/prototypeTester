@@ -1,0 +1,9 @@
+Name	DsMemPhyPort	EntryNumber	1
+logicalPort[0:0]	RO	0	
+dot1xEn[0:0]	RO	0	
+dot1xDrop[0:0]	RO	0	
+avAsTsn[0:0]	RO	0	
+ptpEn[0:0]	RO	0	
+ptpPortType[0:0]	RO	0	
+macBasedVlanEn[0:0]	RO	0	
+protocolVlanEn[0:0]	RO	0	

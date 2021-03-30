@@ -1,0 +1,5 @@
+Name	CtlRemoteSpan	EntryNumber	1
+cosValid[0:0]	RO	0	
+cos[0:0]	RO	0	
+tpid[0:0]	RO	0	
+vlanId[0:0]	RO	0	

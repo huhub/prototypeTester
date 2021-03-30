@@ -1,0 +1,10 @@
+Name	DsMemMacBasedVlanKey	EntryNumber	1
+entryValid[0:0]	RO	0	
+macSa0[0:0]	RO	0	
+macSaHi0[0:0]	RO	0	
+macSa1[0:0]	RO	0	
+macSaHi1[0:0]	RO	0	
+macSa2[0:0]	RO	0	
+macSaHi2[0:0]	RO	0	
+macSa3[0:0]	RO	0	
+macSaHi3[0:0]	RO	0	

@@ -1,0 +1,3 @@
+Name	DsMemPortPoliceCfg	EntryNumber	1
+dropYellow[0:0]	RO	0	
+markAllRed[0:0]	RO	0	

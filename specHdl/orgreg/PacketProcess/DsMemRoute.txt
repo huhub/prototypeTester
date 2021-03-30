@@ -1,0 +1,11 @@
+Name	DsMemRoute	EntryNumber	1
+destMap[0:0]	RO	0	
+nexthopIdx[0:0]	RO	0	
+flowPolicePtr[0:0]	RO	0	
+flowPoliceValid[0:0]	RO	0	
+flowStatsValid[0:0]	RO	0	
+flowStatsPtr[0:0]	RO	0	
+mirrorEn[0:0]	RO	0	
+discard[0:0]	RO	0	
+copyToCpu[0:0]	RO	0	
+nat[0:0]	RO	0	

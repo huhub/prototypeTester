@@ -1,0 +1,1 @@
+HeaderAdjust = {'DsRegChnlAttr': ['portId', 'bypassPp', 'destMap', 'dot1qType'], 'CtlCommon': ['cpuPortNo', 'cpuHdrEn'], 'CtlHdrAdjLog': ['isTsn', 'discard', 'srcPort', 'pktLenLog']}

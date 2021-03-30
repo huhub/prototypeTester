@@ -1,0 +1,4 @@
+Name	DsMemColorStats	EntryNumber	1
+pktCnt[0:0]	RO	0	
+byteCntHi[0:0]	RO	0	
+byteCntLo[0:0]	RO	0	

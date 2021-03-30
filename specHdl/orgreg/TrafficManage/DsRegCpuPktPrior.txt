@@ -1,0 +1,2 @@
+Name	DsRegCpuPktPrior	EntryNumber	1
+prior[0:0]	RO	0	

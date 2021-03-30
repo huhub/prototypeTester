@@ -1,0 +1,2 @@
+Name	CtlDscpMapPrior	EntryNumber	1
+dscpPrior[0:0]	RO	0	

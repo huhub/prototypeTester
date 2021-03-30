@@ -1,0 +1,2 @@
+Name	DsMemTsnEdit	EntryNumber	1
+genSeqNum[0:0]	RO	0	

@@ -1,0 +1,1 @@
+IngressPolice = ['newColor', 'portPoPtr', 'portPoEn', 'flowPoPtr', 'flowPoEn', 'chkSDUfailed', 'dropPktCnt']

@@ -1,0 +1,6 @@
+Name	CtlAdmLog	EntryNumber	1
+enqIpv[0:0]	RO	0	
+gateState[0:0]	RO	0	
+gateCloseCnt[0:0]	RO	0	
+tailDropCnt[0:0]	RO	0	
+wredCnt[0:0]	RO	0	

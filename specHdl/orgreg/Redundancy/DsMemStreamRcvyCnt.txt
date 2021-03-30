@@ -1,0 +1,3 @@
+Name	DsMemStreamRcvyCnt	EntryNumber	1
+flowPassedPkts[0:0]	RO	0	
+flowDiscardPkts[0:0]	RO	0	

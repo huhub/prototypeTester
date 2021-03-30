@@ -1,0 +1,2 @@
+Name	CtlCommon	EntryNumber	1
+cpuPortNo[0:0]	RO	0	

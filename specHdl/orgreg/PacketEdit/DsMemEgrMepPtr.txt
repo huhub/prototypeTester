@@ -1,0 +1,2 @@
+Name	DsMemEgrMepPtr	EntryNumber	1
+oamIdx[0:0]	RO	0	

@@ -1,0 +1,4 @@
+Name	CtlFwdUnknownFilter	EntryNumber	1
+bcastFilter[0:0]	RO	0	
+unknownMcastFilter[0:0]	RO	0	
+unknownUcastFilter[0:0]	RO	0	

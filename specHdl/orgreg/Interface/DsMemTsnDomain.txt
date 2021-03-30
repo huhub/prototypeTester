@@ -1,0 +1,2 @@
+Name	DsMemTsnDomain	EntryNumber	1
+corePortBmp[0:0]	RO	0	
